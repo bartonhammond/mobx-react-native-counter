@@ -1,0 +1,15 @@
+{
+  "name": "mobservCounter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "mobservable": "^1.2.4",
+    "mobservable-react": "^2.1.4",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-native": "^0.19.0"
+  }
+}

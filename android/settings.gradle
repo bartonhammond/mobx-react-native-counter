@@ -1,0 +1,3 @@
+rootProject.name = 'mobservCounter'
+
+include ':app'
