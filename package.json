@@ -2,6 +2,31 @@
   "name": "mobservCounter",
   "version": "0.0.1",
   "private": true,
+  "jest": {
+    "scriptPreprocessor": "./node_modules/babel-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testFileExtensions": [
+      "es6",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "es6"
+    ],
+    "verbose": true,
+    "testPathDirs": [
+      "src/"
+    ]
+  },
+  "scripts": {
+    "test": "jest --verbose ",
+    "start": "react-native start",
+    "test:watch": "npm run test -- --watch",
+    "test-chrome": "node-debug --preload false --nodejs --harmony jest --runInBand"
+  },  
   "scripts": {
     "start": "react-native start"
   },
@@ -11,5 +36,9 @@
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-native": "^0.19.0"
+  },
+    "devDependencies": {
+    "babel-jest": "^6.0.1",
+    "jest-cli": "^0.8.2"
   }
 }
