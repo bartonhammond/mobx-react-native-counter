@@ -1,6 +1,6 @@
 # Mobservable Example with React Native
 
-see [https://github.com/mweststrate/mobservable](https://github.com/mweststrate/mobservable)
+see [https://github.com/mobxjs/mobx](https://github.com/mobxjs/mobx)
 > Observable data. Reactive functions. Simple code
 
 
