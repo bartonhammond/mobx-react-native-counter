@@ -1,6 +1,6 @@
 'use strict';
 
-import {observable} from 'mobservable';
+import {observable} from 'mobx';
 
 const counterStore = observable({
   counter: 0

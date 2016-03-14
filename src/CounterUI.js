@@ -4,7 +4,7 @@
  */
 'use strict';
 
-import {observer} from 'mobservable-react/native';
+import {observer} from 'mobx-react/native';
 
 
 import React, {
@@ -38,7 +38,7 @@ let CounterUI = observer(React.createClass({
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.heading}>Mobservable Counter</Text>
+        <Text style={styles.heading}>Mobx Counter</Text>
         <TouchableHighlight onPress={() => this.props.store.increment()}>
           <Text style={styles.text}>|   +   | </Text>
         </TouchableHighlight>
